@@ -1,6 +1,6 @@
-# {api_name} (API)
+# Overlord Documentation (API)
 
-Overlord API repository for {api_name}
+Overlord API repository for Overlord Documentation.
 
 ## Specification
 
@@ -12,5 +12,5 @@ Overlord API repository for {api_name}
 To install this API into your Overlord environment run following command from inside the Overlord-CLI
 
 ```bash
-./o create -api -git@github.com@__git_user_here__/{api_name}.git
+./o create -api -git@github.com:EasterCompany/Overlord-Documentation-API.git
 ```
