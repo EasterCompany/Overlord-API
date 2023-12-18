@@ -2,11 +2,9 @@ from time import sleep
 from core.library import api
 
 
-def latest(req, *args, **kwargs):
-  sleep(2)
-  return api.success()
+def latest(req, file_type:str, *args, **kwargs):
+  return api.data({ "url": "", "name": "" })
 
 
 def lts(req, *args, **kwargs):
-  sleep(2)
-  return api.success()
+  return api.data({ "url": "", "name": "" })
