@@ -18,3 +18,9 @@ API.path(
   documentation.fetch,
   "fetch the content for a documentation page"
 )
+
+API.path(
+  "documentation/survey",
+  documentation.survey,
+  "fetch a list of available documentation categories and files"
+)
